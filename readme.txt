@@ -19,25 +19,27 @@ Composite --> Refer UserMain.java, Applicants.java (Component), TotalApplicants.
 Bridge --> Refer UserMain.java, WHO (abstraction class), DonorOrganBank & Recipient OrganBank (Refined abstraction), OrganBank (Interface as IMPLEMENTOR)
            , DonorBuilder and RecipientBuilder.java (as Concrete Implementations).
 		   
-		   
-Junit 5 is used for Test cases
-
+-------------------------------------------------------------------		   
+Junit 4.13 is used for Test cases
+------------------------------------------------------------------------
 Compiling and running in eclipse
 
 1. Extract and import this module into eclipse
 2. Run UserMain.java as a java application
 
+---------------------------------------------------------------------------------
 Jar generation steps from eclipse-
 Right click on the project , click on Export option, expand java folder in pop up, select jar, give the destination for the jar to save in your local
 click Finish
 
+-----------------------------------------------------------------------
 Compiling and running the application using command prompt
 
 Go to run --> type cmd -->
 
-Go to the path of your jar file generated in your machine as per line number 22
+Go to the path of your jar file download from this project
 
-Execute the below command and verify the application
+Execute the below command from command Line and verify the application
 
 java -cp Organ-Donor-Receipient.jar com.organ.user.main.UserMain
 
@@ -52,6 +54,6 @@ Import the project into eclipse and Just right on the file and click on run as J
 -------------Git---------
 
 The entire project is pushed to git hub  in this path - clone it
-This package cloned will also have the jar file
+This package cloned will also have the jar file preconstructed.
 
 ----------------------
