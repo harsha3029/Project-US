@@ -43,11 +43,9 @@ java -cp Organ-Donor-Receipient.jar com.organ.user.main.UserMain
 
 ------------------test cases --------------
 
-Builder and Singleton test cases are written and tested using junit 5 under package comorgan.unit.tests
+Builder and Singleton test cases are written and tested using junit 4.13 under package com.organ.unit.tests
 
-Just right on the file and click on run as Junit
-
-TO execute them using command prompt use 
+Import the project into eclipse and Just right on the file and click on run as Junit from eclipse.
 
 
 
